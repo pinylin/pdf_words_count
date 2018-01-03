@@ -1,12 +1,14 @@
 # pdf_words_count
-###场景
+### 场景
 下定决心读英文书籍，结果老是被生词打断。于是想对pdf中英文单词出现的频次进行统计，再过滤简单词汇。这样就能重点学习生词，让我流畅的读完一本英文书。
-###环境
+### 环境
 python3.6
 pdfminer.six
 NLTK3.25
 win10 
-####tips
+
+#### tips
+
 - 要注意win下txt文件换行符和unix的不同
 - pdfminer 对有些pdf无法解析(No /Root object!)
 ### 流程
